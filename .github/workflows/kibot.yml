@@ -1,0 +1,115 @@
+name: "Variants demo using a Makefile"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - 'Makefile'
+      - '.github/workflows/kibot.yml'
+  pull_request:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - 'Makefile'
+      - '.github/workflows/kibot.yml'
+  repository_dispatch:
+    types: [run_normal]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  ERC:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run ERC
+      run: |
+        make erc
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: ERC_Output
+        path: Generated
+
+  DRC:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    needs: ERC
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run DRC
+      run: |
+        make drc
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: DRC_Output
+        path: Generated
+
+  var_default:
+    name: Default variant
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    needs: [ERC, DRC]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Generate default variant
+      run: |
+        make var_default
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: Default_Output
+        path: Generated
+
+  var_usb:
+    name: USB variant
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    needs: [ERC, DRC]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Generate USB variant
+      run: |
+        make var_usb
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: USB_Output
+        path: Generated
+
+  var_xtal:
+    name: XTAL variant
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    needs: [ERC, DRC]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Generate XTAL variant
+      run: |
+        make var_xtal
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: XTAL_Output
+        path: Generated

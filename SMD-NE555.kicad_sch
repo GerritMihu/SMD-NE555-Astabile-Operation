@@ -1350,22 +1350,10 @@
 		)
 	)
 	(junction
-		(at 154.94 109.22)
+		(at 66.04 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08a4e51f-b1e8-456e-85d1-c61c4c32e590")
-	)
-	(junction
-		(at 62.23 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a0fc5e7-3000-4dc7-89b6-8a9500008108")
-	)
-	(junction
-		(at 129.54 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1aad7237-c711-44ec-8a64-8a526d16905d")
+		(uuid "211bfca8-4aee-4535-957f-2697d11154e6")
 	)
 	(junction
 		(at 111.76 83.82)
@@ -1380,46 +1368,22 @@
 		(uuid "3a172c6d-efb2-499e-9644-544ba3287f87")
 	)
 	(junction
-		(at 101.6 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "454c0790-0ce9-4e90-a768-6e1435114c3c")
-	)
-	(junction
-		(at 62.23 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53d43e8a-eaae-4beb-97f0-ef0206692f51")
-	)
-	(junction
-		(at 148.59 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "626d8583-02a9-4834-8c5c-8b1f684b1d8f")
-	)
-	(junction
 		(at 101.6 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "872cf1c6-c974-4d31-84d8-1add0673c1ad")
 	)
 	(junction
-		(at 101.6 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8db65b3-780f-4c73-a78d-1ee6a9aea163")
-	)
-	(junction
-		(at 129.54 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1182262-4618-4ceb-86d5-14b748d8643e")
-	)
-	(junction
 		(at 168.91 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbcaaa2d-8009-41ee-8b46-beed49b3a3ef")
+	)
+	(junction
+		(at 66.04 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fda40945-194c-42e2-acde-54480ceeaa1e")
 	)
 	(wire
 		(pts
@@ -1430,6 +1394,16 @@
 			(type default)
 		)
 		(uuid "08d4c549-d495-4666-9494-3444bc769aba")
+	)
+	(wire
+		(pts
+			(xy 168.91 105.41) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e35535f-202a-499f-8c8a-86b8137e34a4")
 	)
 	(wire
 		(pts
@@ -1453,16 +1427,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c3114b-c547-4763-8bd5-d40c1366d53d")
-	)
-	(wire
-		(pts
 			(xy 154.94 78.74) (xy 154.94 88.9)
 		)
 		(stroke
@@ -1470,26 +1434,6 @@
 			(type default)
 		)
 		(uuid "272f4b9d-f660-4e2c-86e5-58a7f0910893")
-	)
-	(wire
-		(pts
-			(xy 62.23 43.18) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277b7cc1-49a4-4f5c-b22d-69c01960beb3")
-	)
-	(wire
-		(pts
-			(xy 168.91 43.18) (xy 148.59 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a1a5b4b-4cc3-461c-b41d-19afdbe7cde5")
 	)
 	(wire
 		(pts
@@ -1513,13 +1457,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 43.18) (xy 129.54 43.18)
+			(xy 66.04 68.58) (xy 73.66 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43fa2102-f7d7-4b15-8d92-d64c0da18e31")
+		(uuid "420113d5-d989-424e-bd3a-47d8f2adacc6")
 	)
 	(wire
 		(pts
@@ -1543,23 +1487,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 66.04) (xy 62.23 43.18)
+			(xy 62.23 66.04) (xy 66.04 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ff143cc-8e3e-4c1c-ae86-fc5b81ce8ae4")
-	)
-	(wire
-		(pts
-			(xy 168.91 102.87) (xy 168.91 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0b2566-0ded-4cea-9792-793d96fdd88a")
 	)
 	(wire
 		(pts
@@ -1573,23 +1507,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 109.22) (xy 101.6 109.22)
+			(xy 154.94 105.41) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "703c0408-0f69-451a-b06d-4616413cc399")
-	)
-	(wire
-		(pts
-			(xy 154.94 96.52) (xy 154.94 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de3ec09-afa8-48fb-8613-6514d9d58a05")
+		(uuid "7a400aa5-1fcc-4de4-87b7-1f4d49844a6c")
 	)
 	(wire
 		(pts
@@ -1600,16 +1524,6 @@
 			(type default)
 		)
 		(uuid "9d381dae-e3f4-4d03-87b6-6c31dc9a6a32")
-	)
-	(wire
-		(pts
-			(xy 154.94 109.22) (xy 168.91 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01a1826-ba5a-44fe-8acf-b4a90a980e8a")
 	)
 	(wire
 		(pts
@@ -1673,6 +1587,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 105.41) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedec761-e514-4dfc-a021-c78469bf66a1")
+	)
+	(wire
+		(pts
+			(xy 66.04 66.04) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c358e2db-97bb-4ac1-9c17-f5d7a2c9947a")
+	)
+	(wire
+		(pts
 			(xy 144.78 73.66) (xy 144.78 92.71)
 		)
 		(stroke
@@ -1680,16 +1614,6 @@
 			(type default)
 		)
 		(uuid "c5815b80-8219-4cd5-97f0-0257ccff29cb")
-	)
-	(wire
-		(pts
-			(xy 129.54 109.22) (xy 154.94 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c96351fd-c053-4d0a-b717-0c8742ae4841")
 	)
 	(wire
 		(pts
@@ -1713,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 68.58) (xy 62.23 109.22)
+			(xy 62.23 68.58) (xy 66.04 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 129.54 109.22)
+			(xy 129.54 88.9) (xy 129.54 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1750,26 +1674,6 @@
 			(type default)
 		)
 		(uuid "e35957cc-86cd-4928-965a-86ae0801fb14")
-	)
-	(wire
-		(pts
-			(xy 101.6 109.22) (xy 129.54 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec75b089-e2d2-4fbf-85bb-1b9aad1dc9c6")
-	)
-	(wire
-		(pts
-			(xy 129.54 109.22) (xy 129.54 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edbeb850-3963-458b-ac4e-3290d0d65228")
 	)
 	(wire
 		(pts
@@ -1800,16 +1704,6 @@
 			(type default)
 		)
 		(uuid "ee35a61c-b50d-47e2-8ffb-55c8e717b88d")
-	)
-	(wire
-		(pts
-			(xy 101.6 99.06) (xy 101.6 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f004b7d4-6b5e-4569-87a4-ff21a7df5004")
 	)
 	(wire
 		(pts
@@ -1844,7 +1738,7 @@
 	(symbol
 		(lib_name "GNDA_1")
 		(lib_id "power:GNDA")
-		(at 129.54 115.57 0)
+		(at 129.54 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1853,7 +1747,7 @@
 		(fields_autoplaced yes)
 		(uuid "116c1600-9732-4f66-b496-6b0fe42ec871")
 		(property "Reference" "#PWR02"
-			(at 129.54 121.92 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1756,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 129.54 120.65 0)
+			(at 129.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 115.57 0)
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 115.57 0)
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 129.54 115.57 0)
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,6 +1861,72 @@
 			(project "SMD-NE555"
 				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 148.59 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27688610-943d-4328-9ac2-3af50973c190")
+		(property "Reference" "#PWR08"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78abcff4-755e-43e4-8884-6bd1f9062c95")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2079,6 +2039,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GNDA_1")
+		(lib_id "power:GNDA")
+		(at 168.91 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36d09439-ebcc-40cb-a4ba-312b0571f098")
+		(property "Reference" "#PWR03"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d0dce03-f671-4bff-b96d-d9add62ce49c")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 203.2 46.99 0)
 		(unit 1)
@@ -2137,6 +2164,73 @@
 			(project "SMD-NE555"
 				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GNDA_1")
+		(lib_id "power:GNDA")
+		(at 66.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4562da11-1c56-4a3c-ac93-9d53b9141d01")
+		(property "Reference" "#PWR06"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53558160-d433-400a-805f-2d33703c377e")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2687,6 +2781,206 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 66.04 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b80b81-7adf-4481-b201-14b01578e44e")
+		(property "Reference" "#PWR010"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff2b8207-33ad-41ae-b80f-30d475d11037")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GNDA_1")
+		(lib_id "power:GNDA")
+		(at 101.6 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8514537d-a7ed-46c4-929f-fbfb038a9f60")
+		(property "Reference" "#PWR05"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04615a6f-7068-4042-875c-69adb5e3f9e1")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GNDA_1")
+		(lib_id "power:GNDA")
+		(at 154.94 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8713ef85-e92a-4211-b9fd-d89054592198")
+		(property "Reference" "#PWR04"
+			(at 154.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 154.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbf414e7-33ac-4fa5-8bcf-b758a2600ae8")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 95.25 0)
 		(unit 1)
@@ -3007,7 +3301,7 @@
 	(symbol
 		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 43.18 0)
+		(at 73.66 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3016,7 +3310,7 @@
 		(fields_autoplaced yes)
 		(uuid "9af5e4cd-1c4f-4f20-9b10-9dfab663d97b")
 		(property "Reference" "#FLG02"
-			(at 62.23 41.275 0)
+			(at 73.66 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3319,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 38.1 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 43.18 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 43.18 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3345,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 43.18 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,6 +3538,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 168.91 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c58b07-f55a-427c-9eb0-3039e76dfc99")
+		(property "Reference" "#PWR09"
+			(at 168.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2444bd7e-41bc-4ed8-a284-011dd0e98cd3")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 168.91 99.06 90)
 		(unit 1)
@@ -3352,7 +3712,7 @@
 	(symbol
 		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 109.22 180)
+		(at 73.66 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3361,7 +3721,7 @@
 		(fields_autoplaced yes)
 		(uuid "c842fe8d-0d43-46dc-afff-e1826542e0c1")
 		(property "Reference" "#FLG01"
-			(at 62.23 111.125 0)
+			(at 73.66 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3730,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 114.3 0)
+			(at 73.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 109.22 0)
+			(at 73.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 109.22 0)
+			(at 73.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3756,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 109.22 0)
+			(at 73.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,6 +3771,72 @@
 			(project ""
 				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 129.54 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5208f2b-7e3c-4439-8afc-5a83ef3b7d90")
+		(property "Reference" "#PWR07"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94ca8c28-b76b-409c-bc25-7a04f52d33c2")
+		)
+		(instances
+			(project "SMD-NE555"
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

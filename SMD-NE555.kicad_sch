@@ -714,6 +714,102 @@
 				)
 			)
 		)
+		(symbol "GNDA_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -788,6 +884,102 @@
 					(radius 1.27)
 					(stroke
 						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1036,103 +1228,7 @@
 				)
 			)
 		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:PWR_FLAG"
+		(symbol "power:VDC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1140,104 +1236,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "power:VDC"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -2.54 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1246,7 +1246,7 @@
 				)
 			)
 			(property "Value" "VDC"
-				(at 0 6.35 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1330,8 +1330,8 @@
 			(symbol "VDC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VDC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1356,10 +1356,10 @@
 		(uuid "08a4e51f-b1e8-456e-85d1-c61c4c32e590")
 	)
 	(junction
-		(at 72.39 43.18)
+		(at 62.23 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "19219db0-ff29-47ed-9d30-7f9bdd743c87")
+		(uuid "1a0fc5e7-3000-4dc7-89b6-8a9500008108")
 	)
 	(junction
 		(at 129.54 109.22)
@@ -1386,10 +1386,10 @@
 		(uuid "454c0790-0ce9-4e90-a768-6e1435114c3c")
 	)
 	(junction
-		(at 80.01 43.18)
+		(at 62.23 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f7524e2-f013-4a39-b94c-e6050afa50f4")
+		(uuid "53d43e8a-eaae-4beb-97f0-ef0206692f51")
 	)
 	(junction
 		(at 148.59 43.18)
@@ -1402,12 +1402,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "872cf1c6-c974-4d31-84d8-1add0673c1ad")
-	)
-	(junction
-		(at 121.92 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd74510e-5df4-4634-90ea-09b6a8473229")
 	)
 	(junction
 		(at 101.6 109.22)
@@ -1469,16 +1463,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 109.22) (xy 129.54 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b64955-85c3-4986-8c5f-cbced2e333e4")
-	)
-	(wire
-		(pts
 			(xy 154.94 78.74) (xy 154.94 88.9)
 		)
 		(stroke
@@ -1489,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 43.18) (xy 80.01 43.18)
+			(xy 62.23 43.18) (xy 101.6 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1559,16 +1543,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 72.39 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9a96e2-5079-4a82-abc9-a44c73101ab8")
-	)
-	(wire
-		(pts
 			(xy 62.23 66.04) (xy 62.23 43.18)
 		)
 		(stroke
@@ -1576,36 +1550,6 @@
 			(type default)
 		)
 		(uuid "4ff143cc-8e3e-4c1c-ae86-fc5b81ce8ae4")
-	)
-	(wire
-		(pts
-			(xy 62.23 43.18) (xy 72.39 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c98fb40-bb6d-4ec2-9c9a-eda5affb2ce3")
-	)
-	(wire
-		(pts
-			(xy 80.01 43.18) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63537c87-d623-48fd-9e94-f4738d879149")
-	)
-	(wire
-		(pts
-			(xy 80.01 38.1) (xy 80.01 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668c2f8d-f74d-4854-99d1-b72ecfe1c3cd")
 	)
 	(wire
 		(pts
@@ -1646,16 +1590,6 @@
 			(type default)
 		)
 		(uuid "8de3ec09-afa8-48fb-8613-6514d9d58a05")
-	)
-	(wire
-		(pts
-			(xy 121.92 120.65) (xy 121.92 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fe676fb-75dc-42e6-960f-0b781fe75417")
 	)
 	(wire
 		(pts
@@ -1819,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 109.22) (xy 121.92 109.22)
+			(xy 101.6 109.22) (xy 129.54 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 109.22) (xy 129.54 121.92)
+			(xy 129.54 109.22) (xy 129.54 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1906,6 +1840,73 @@
 			(type default)
 		)
 		(uuid "fc4460a4-deae-44e0-9f54-27645b639b06")
+	)
+	(symbol
+		(lib_name "GNDA_1")
+		(lib_id "power:GNDA")
+		(at 129.54 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "116c1600-9732-4f66-b496-6b0fe42ec871")
+		(property "Reference" "#PWR02"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "646bd591-9395-4397-bdc4-0989e79100ad")
+		)
+		(instances
+			(project ""
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
@@ -2260,72 +2261,6 @@
 			(project "SMD-NE555"
 				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 129.54 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52b0b0ef-1da3-4d84-af3d-2857582dba2a")
-		(property "Reference" "#PWR0102"
-			(at 129.54 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 129.54 126.0555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee096bba-70d2-4d13-8386-68d6f7262ddd")
-		)
-		(instances
-			(project "SMD-NE555"
-				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -3070,17 +3005,18 @@
 		)
 	)
 	(symbol
+		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
-		(at 121.92 120.65 180)
+		(at 62.23 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99b7404e-c89b-4d88-967a-5bbfc9498a30")
-		(property "Reference" "#FLG0101"
-			(at 121.92 122.555 0)
+		(uuid "9af5e4cd-1c4f-4f20-9b10-9dfab663d97b")
+		(property "Reference" "#FLG02"
+			(at 62.23 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3025,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 121.92 124.7855 0)
+			(at 62.23 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 120.65 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 120.65 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,8 +3050,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 120.65 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,12 +3060,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdcf3e78-92ca-4e54-9226-2bd8b674ab6d")
+			(uuid "583d0bd9-0234-42ae-b60f-66eb98f0737d")
 		)
 		(instances
 			(project "SMD-NE555"
 				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
-					(reference "#FLG0101")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3242,6 +3178,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 101.6 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cee6f73-efa9-46a1-9d49-96525ee782bb")
+		(property "Reference" "#PWR01"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3721093a-a12b-4efe-b2f3-e26055997bc7")
+		)
+		(instances
+			(project ""
+				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 168.91 99.06 90)
 		(unit 1)
@@ -3348,17 +3350,18 @@
 		)
 	)
 	(symbol
+		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
-		(at 72.39 38.1 0)
+		(at 62.23 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc3e1789-cd03-484c-a7a9-60e1beccfe38")
-		(property "Reference" "#FLG0103"
-			(at 72.39 36.195 0)
+		(uuid "c842fe8d-0d43-46dc-afff-e1826542e0c1")
+		(property "Reference" "#FLG01"
+			(at 62.23 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3370,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 72.39 34.5981 0)
+			(at 62.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 38.1 0)
+			(at 62.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 38.1 0)
+			(at 62.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,74 +3395,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6b3d23f-d814-4b5d-a40c-c3382812914b")
-		)
-		(instances
-			(project "SMD-NE555"
-				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
-					(reference "#FLG0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 80.01 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd110b2e-8b74-49a6-b27c-3aa9c9872d2d")
-		(property "Reference" "#PWR01"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 80.01 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 38.1 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,12 +3405,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5451e67f-a5ff-4f4a-b0bb-05d3743c651c")
+			(uuid "7c5ae28c-33cb-432f-b869-f652ab89b152")
 		)
 		(instances
-			(project "SMD-NE555"
+			(project ""
 				(path "/228b2a1f-8fe2-47e8-9c16-1fb8e75a8b2f"
-					(reference "#PWR01")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

@@ -62,5 +62,4 @@ jobs:
       with:
         branch: main
         folder: Generated
-        repository-name: INTI-CMNB/kibot_variants_arduprog_site
-        token: ${{ secrets.TOKEN }}
+        repository-name: GerritMihu/SMD-NE555-Astabile-Operation
